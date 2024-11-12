@@ -1,8 +1,8 @@
-# Maternal Mortality
+# Maternal Mortality: An Analysis of Influencing Factors
 
 ## Overview
 
-This project explores the factors influencing maternal mortality rates globally, focusing on data from 2015. Maternal mortality is defined as deaths resulting from complications during pregnancy or childbirth. This is a pressing issue as approximately 84% of these deaths are preventable.
+This project investigates the factors influencing global maternal mortality rates, using data from 2015. Maternal mortality refers to deaths caused by complications during pregnancy or childbirth, a critical public health issue as approximately 84% of these deaths are preventable.
 
 ## Data Sources
 
@@ -24,21 +24,33 @@ The following independent variables were examined for their impact on maternal m
 
 ## Methodology
 
-An **Ordinary Least Squares (OLS)** regression analysis was conducted, along with partial regression and regression coefficient plots. The model achieved an **R-squared value of 0.856**, indicating a strong fit. At the 5% significance level, only HDI and CAI were found to be statistically significant predictors.
+The study employed the following techniques:
+
+1.  **Ordinary Least Squares (OLS) Regression Analysis**
+
+2.  **Partial Regression Plots**
+
+3.  **Regression Coefficient Visualization**
+
+## Key Findings
+
+-   The model demonstrated a strong fit, achieving an R-squared value of **0.856**.
+
+-   At the **5% significance level**, only **HDI** and **CAI** emerged as statistically significant predictors of maternal mortality.
 
 ## Limitations
 
-This analysis acknowledges several limitations:
+Several limitations were identified in this analysis:
 
--   The data set is limited to 2015, potentially affecting the applicability of the findings.
+-   **Temporal Scope:** The data is restricted to 2015, which may limit the generalizability of the findings.
 
--   Not all countries had complete data, which may introduce bias.
+-   **Incomplete Data:** Some countries lacked complete data, introducing potential bias.
 
--   Some variables of interest were excluded due to missing values.
+-   **Excluded Variables:** Certain variables of interest were omitted due to missing values.
 
 ## Conclusion
 
-This project sheds light on critical factors affecting maternal mortality and emphasizes the importance of addressing preventable causes to improve global health outcomes.
+This project highlights critical factors influencing maternal mortality and underscores the importance of addressing preventable causes to reduce global maternal mortality rates. The findings emphasize the need for targeted interventions in healthcare, education, and socio-economic policies to improve maternal health outcomes worldwide.
 
 ## Sources
 
